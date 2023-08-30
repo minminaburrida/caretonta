@@ -1,0 +1,15 @@
+<div class="todo">
+
+
+<div class="box" (scroll)="onscroll($event)">
+  <app-producto [producto]="p" *ngFor="let p of productos"></app-producto>
+  <app-producto [producto]="p" *ngFor="let p of productos"></app-producto>
+  <app-producto [producto]="p" *ngFor="let p of productos"></app-producto>
+  <app-producto [producto]="p" *ngFor="let p of productos"></app-producto>
+  <app-producto [producto]="p" *ngFor="let p of productos"></app-producto>
+</div>
+<div class="c">
+  <p id="p">{{perc}}%</p>
+<progress value="0" max='100' class="bar"></progress>
+</div>
+</div>

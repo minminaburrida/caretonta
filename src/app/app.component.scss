@@ -1,0 +1,57 @@
+.c{
+  display: grid;
+  place-items: center;
+}
+.box{
+
+  // place-items: center;
+  height: 50vh;
+  width: 60%;
+  // text-align: center;
+  overflow: auto;
+  background: pink;
+  text-align: center;
+}
+.bar{
+  background: #fcc;
+  height: 10px;width: 300px;
+  margin-top: 10px;
+  color: red;
+}
+.bar::-webkit-progress-value {
+  background-color: #fcc; /* Cambia el color de la barra de progreso */
+}
+
+.bar::-moz-progress-bar {
+  background-color: #fcc; /* Cambia el color de la barra de progreso para Firefox */
+}
+.todo{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 6px;
+}
+
+/* Track (the background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border: 2px solid;
+  border-radius: 6px;
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #faa;
+  border-radius: 6px;
+  border: 3px solid #d88
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e99;
+
+}
